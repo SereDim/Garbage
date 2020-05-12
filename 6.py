@@ -29,4 +29,5 @@ else:#
 t = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
 print(f'Program worked {t} seconds')
 '''Прще чем прошлый, заняло 30 мин
-Потребляет меньше памяти'''
+Потребляет меньше памяти
+РЕКУРСИВНИЙ МЕТОД ШВИДШИЙ'''
